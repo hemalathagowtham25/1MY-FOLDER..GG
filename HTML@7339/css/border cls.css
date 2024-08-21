@@ -1,0 +1,29 @@
+
+.head1
+{
+ border-style:solid;
+}
+.head2
+{
+ border-style:double;
+}
+
+.head3
+{
+ border-style:dotted;
+}
+
+.head4
+{
+ border-style:dashed;
+}
+
+.head5
+{
+ border-style:inset;
+}
+
+.head6
+{
+ border-style:outset;
+}

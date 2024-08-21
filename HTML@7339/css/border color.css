@@ -1,0 +1,18 @@
+.head1
+{
+border-style:dashed;
+border-width:12px;
+border-color:red;
+}
+.head2
+{
+border-style:outset;
+border-width:5px 10px 15px 20px;
+border-color:red blue yellow green;
+}
+.head3
+{
+border-style:double;
+border-width:25px 30px;
+border-color:brown violet;
+}

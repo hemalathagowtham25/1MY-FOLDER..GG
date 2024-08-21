@@ -1,0 +1,16 @@
+div{
+    width: 300px;
+    height: 250px;
+    border: 3px solid red;
+    margin: 30px;
+    padding: 5px;
+    outline-style:double;
+    outline-width: 20px;
+    outline-color: yellow;
+    outline-offset: 5px;
+    overflow:scroll ;
+
+}
+img{
+    width: 100%;
+}

@@ -1,0 +1,52 @@
+body
+{
+margin-top:50px;
+}
+
+a
+{
+text-decoration:none;
+}
+.button1
+{
+background-color: red;
+padding:15px 20px;
+}
+.button1:hover
+{
+background-color:green;
+color:white;
+}
+.button2
+{
+border:1px solid green;
+padding:15px 20px;
+border-radius:25px;
+}
+.button2:hover
+{
+background-color:green;
+color:white;
+}
+.button3
+{
+border:1px solid red;
+padding:15px 20px;
+border-radius:25px;
+}
+.button3:hover
+{
+background-color:green;
+color:white;
+}
+.button4
+{
+	border:3px solid green;
+	padding:30px 30px;
+	border-radius:25px;
+}
+.button4:hover
+{
+	background-color:red;
+	color:white;
+}

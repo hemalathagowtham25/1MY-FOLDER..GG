@@ -1,0 +1,15 @@
+.head1
+{
+border-top-style:dotted;
+border-right-style:dashed;
+border-bottom-style:double;
+border-left-style:solid;
+}
+.head2
+{
+	border-style:solid dashed double dotted;
+}
+.head3
+{
+	border-style:outset inset;
+}

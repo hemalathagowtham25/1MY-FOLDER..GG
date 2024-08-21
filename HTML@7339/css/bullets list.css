@@ -1,0 +1,22 @@
+body
+{
+margin-top:25px;
+font-size:24;
+}
+ul
+{
+/*list-style-type:circle;*/
+/*list-style-type:square;*/
+/*list-style-type:none;*/
+}
+/*ol*/
+{
+	/*list-style-type:upper-alpha;*/
+	/*list-style-type:lower-alpha;*/
+	/*list-style-type:upper-roman;*/
+	/*list-style-type:lower-roman;*/
+}
+ul  
+{
+	list-style-image:url("../images/image4.jpg");
+}

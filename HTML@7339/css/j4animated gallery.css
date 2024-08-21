@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #222;
+    display: grid;
+    place-items: center;
+}
+img{
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+    transform:  perspective(800px) rotateY(25deg);
+    transition: 0.5s;
+}
+.container{
+  
+    max-width: 800px;
+    max-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.container img{
+    opacity: 0.5;
+ 
+
+}
+.container img:hover{
+    transform: perspective(800px) rotatey(0deg) scale(1.2);
+    opacity: 1;
+    z-index: 99;
+}

@@ -1,0 +1,38 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+#header,#footer
+{
+    width: 100%;
+    height: 200px;
+    background-color: aquamarine;
+    color: red;
+    font-size:larger;
+
+}
+#navbar 
+{
+    width: 100%;
+    background-color: yellow;
+    height: 50px;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+
+}
+#box {
+    width: 100%;
+    padding: 10;
+    background-color: bisque;
+    border:2px solid lawngreen ;
+}
+#navbar ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+    line-height: 10px;
+  
+}

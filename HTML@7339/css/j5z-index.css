@@ -1,0 +1,62 @@
+.box
+{
+    width: 800px;
+    height: 500px;
+    background-color: teal;
+    position: relative;
+
+}
+.box div{
+    height: 100px;
+    width: 300px;
+    margin: 10px;
+    position: absolute;
+
+}
+.box-1
+{
+    background-color: aqua;
+    top: 100px;
+    left: 50px;
+    z-index: 1;
+
+    
+}
+.box-2
+{
+    background-color:pink;
+    top: 150px;
+    left: 100px;
+    z-index: 2;
+}
+.box-3
+{
+    background-color:purple;
+    top: 200px;
+    left: 150px;
+    z-index: 3;
+}
+.box-1:hover
+{
+    background-color:red;
+    top: 100px;
+    left: 50px;
+    z-index: 4;
+    border: 3px solid aqua;   
+}
+.box-2:hover
+{
+    background-color:orangered;
+    top: 150px;
+    left: 100px;
+    z-index: 5;
+    border: 3px solid pink;
+}
+.box-3:hover
+{
+    background-color:deeppink;
+    top: 200px;
+    left: 150px;
+    z-index: 6;
+    border: 3px solid purple;
+}

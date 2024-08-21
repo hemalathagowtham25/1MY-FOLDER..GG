@@ -1,0 +1,14 @@
+body
+{
+background-image:url("../images/image7.jpg");
+background-repeat:no-repeat;
+background-position:center center;
+background-attachment:fixed;
+}
+h1
+{
+	text-align:center;
+	font-size:50px;
+	color:blue;
+
+}

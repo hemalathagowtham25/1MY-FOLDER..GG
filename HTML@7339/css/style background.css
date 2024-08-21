@@ -1,0 +1,26 @@
+body
+{
+margin-top:50px;
+}
+ul
+{
+list-style-type:none;
+background-color:blue;
+width:30%;
+padding:60px;
+font-size:30px;
+}
+ul li
+{
+	background-color:red;
+	margin:6px;
+	padding:6px;
+	color:white;
+}
+ul li:hover
+{
+	background-color:green;
+	color:white;
+	text-decoration:underline;
+}
+	

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    
+}
+.btn{
+    width: 200px;
+    height: 100px;
+    background-color: #c1c1c1;
+    border-radius: 200px;
+    cursor: pointer;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.btn::before{
+    position: absolute;
+    content: "";
+    width: 90px;
+    height: 90px;
+    background-color: #fff;
+    border-radius: 200px;
+    margin: 5px;
+    transition: 0.5s;
+}
+input:checked + .btn{
+    background-color:lightseagreen;
+}
+
+input:checked + .btn::before{
+    transform: translateX(100px);
+}
+input{
+    display: none;
+}

@@ -1,0 +1,29 @@
+.container{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+
+}
+.typing-text{
+    font-family: monospace;
+    font-size: 2em;
+    color: #192a56;
+    border-right: 3px solid;
+    width: 51ch;
+    white-space:nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(51), blink 0.5s step-end infinite alternate;
+  
+
+
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+}
+@keyframes blink{
+    50%{
+        border-color: transparent;
+    }
+}

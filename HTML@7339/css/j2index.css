@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: bisque;
+    color: rgb(207, 207, 233);
+}
+.box
+{
+    width: 400px;
+    height:250px;
+    background-color: blueviolet;
+    margin: 30px;
+    padding: 25px;
+    border: 2px double red;
+}
+.shadow
+{
+box-shadow: 10px 10px 6px 0px blue;
+
+}

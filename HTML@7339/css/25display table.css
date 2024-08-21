@@ -1,0 +1,42 @@
+.table{
+
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 600px;
+    display: table;
+}
+
+.row{
+    display:table-row ;
+}
+.col
+{
+    border: 1px solid black;
+    padding: 10px 30px;
+    display: table-cell;
+}
+.caption
+{
+    display: table-caption;
+    text-align: center;
+    font-weight: bold;
+    color: orangered;
+    padding: 10px;
+}
+.header
+{
+    font-weight: bold;
+    text-align: center;
+    background-color: orangered;
+    padding: 10px;
+    display: table-header-group;
+}
+.footer
+{
+    display:table-footer-group;
+    
+}
+.col-group
+{
+    display: table-column-group;
+}

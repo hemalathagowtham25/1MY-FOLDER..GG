@@ -1,0 +1,47 @@
+body
+{
+margin-top:50px;
+font-size:25px;
+}
+table,tr,td,th
+{
+	border:1px solid black;
+	border-collapse:collapse;
+	padding:10px;
+}
+table
+{
+	width:100%;
+	height:auto;
+}
+tr,td,th
+{
+	text-align:center;
+	/*text-align:right;*/
+	/*text-align:left;*/
+	
+
+}
+td
+{
+	height:50px;
+	vertical-align:top;
+	/*vertical-align:middle;*/
+	/*vertical-align:bottom;*/
+}
+/*striped table*/
+tr:nth-child(odd)
+{
+	background-color:yellow;
+	color:red;
+}
+tr:nth-child(even)
+{
+	background-color:blue;
+	color:red;
+}
+tr:hover
+{
+	background-color:red;
+	color:white;
+}
